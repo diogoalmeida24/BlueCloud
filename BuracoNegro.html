@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Cloud</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="BuracoNegro.css"> <!--Folha de estilo (CSS)-->
+  <link rel="icon" href="Imagens/icone.ico">
+  <script language="Javascript"> //Funções JavaScript//
+    function alerta(){  //Instruções donwload quiz//
+      alert("Olá usuário!\n\nLogo após ser feito o download do arquivo (PC_Quiz.zip), descompacte e execute o arquivo 'Quiz_BlueCloud'.\n\nSe divirta!")
+    }
+  </script>
+</head>
+<body>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.705);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Index.html">
+        <img src="Imagens/Logo.png" alt="" width="150px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item1">
+            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Conteúdo
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="IndexSophia.html">Sophia</a></li>
+              <li><a class="dropdown-item" href="IndexPerseverence.html">Perseverance</a></li>
+              <li><a class="dropdown-item" href="Temperatura.html">Altas temperaturas no oceano</a></li>
+              <li><a class="dropdown-item" href="IndexIndustria.html">Indústria pelo mundo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item1">
+            <a class="nav-link active" aria-current="page" href="PC_Quiz.zip" onclick="alerta()"> Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Imagens/bd.png" style="width: 200px;">Banco de Dados</a>
+          </li>
+        </ul>
+        <div class="login"><a class="login" href="LoginCadastro.html"><img src="Imagens/teste5.png" alt="" width="38" height="32"></img> Login / Cadastro</a></div> <!-- Cadastro/Login Cliente-->
+      </div>
+    </div>
+  </nav>
+
+  <!--inicio pagina-->
+
+  <center>
+    <div class="titulo">
+      <h1>Como brasileira usa IA para descobrir os
+        mistérios dos buracos negros</h1>
+  </center>
+  </div>
+  <div class="bloco2">
+    <p class="old">
+      &nbsp;Sabia que se você cair perto de um buraco negro que está girando, você obrigatoriamente vai girar junto com
+      ele? Desvendar os segredos por trás do objeto mais
+      misterioso do universo faz parte da vida da brasileira Roberta Duarte, 25, aluna de doutorado do Instituto de
+      Astronomia e
+      Geofísica da USP (Universidade de São Paulo). A curiosidade sobre o efeito do buraco negro sobre os humanos
+      próximos a ele foi compartilhada pela jovem em seu perfil no Twitter,
+      rede social que ela utiliza como parte de seu trabalho de divulgadora científica. Atualmente, ela tem 21,9 mil
+      seguidores. E seu papel na ciência vai muito além.
+      <br>
+
+      &nbsp;Com ajuda de inteligência artificial, a pesquisadora realizou uma raríssima simulação de buracos negros como
+      parte de sua pesquisa de mestrado. Os resultados foram publicados no
+      arXiv, arquivo da Universidade de Cornell para estudos científicos em campos como o da física, matemática e
+      computação.
+      Em setembro, o anúncio de sua participação em uma palestra na XVI Semana da Física da Universidade de Brasília
+      para falar sobre seu estudo com buracos negros
+      rendeu quase mil curtidas e vários comentários. E sua fama não fica restrita ao site do passarinho azul. Mestre em
+      astrofísica, ela também faz roteiros de vídeos o canal do YouTube Ciência Todo Dia,
+      que soma mais de 2 milhões de inscritos.
+      Em entrevista para Tilt, a pesquisadora brasileira fala sobre seu trabalho e sobre como inteligência artificial e
+      astronomia se misturam.
+      <img class="lat" src="Imagens/Intestellar Gargantua Black Hole.jpg" alt="buraco_negro" width="20%" height="80%">
+    </p>
+  </div>
+
+  <div class="bloco2">
+
+    <dl>
+      <dt><img src="Imagens/backup.png" alt="" width="2%"> Tilt: Como funciona a simulação de um buraco negro por meio
+        da inteligência artificial?</dt>
+    </dl>
+
+    <p class="old">Roberta Duarte: Primeiramente, nós precisamos ensinar para o computador [o que fazer]. Usamos uma
+      técnica de machine learning [aprendizado de máquina] chamada deep
+      learning [aprendizado profundo]: utilizando dados de simulações numéricas e equações que descrevem um fluido em
+      torno de um buraco negro para cada instante de tempo.
+      Queríamos quantificar o quanto da física a IA conseguiria aprender e, se o modelo, depois de treinado, conseguiria
+      simular sozinho a dinâmica do disco de acreção
+      [matérias, gás ou plasma que se movem em espiral em torno de um objeto celeste] de um buraco negro. Nós
+      conseguimos que o modelo fizesse a simulação corretamente apenas aprendendo
+      a física via outras simulações.</p>
+    <dl>
+      <dt><img src="Imagens/backup.png" alt="" width="2%"> Tilt: Quais as vantagens dessa simulação?</dt>
+    </dl>
+
+    <p class="old">RD: A primeira é que, do ponto de vista científico, o estudo mostra que seria possível acelerarmos
+      simulações de buracos negros, que são importantes para entendermos
+      como esses objetos se comportam.
+      A segunda é do ponto de vista da inteligência artificial. É interessante submeter IAs para resolverem problemas
+      complexos e entendermos qual o limite que essas
+      ferramentas possuem.</p>
+
+    <dl>
+      <dt><img src="Imagens/backup.png" alt="" width="2%"> Tilt: Como foi e quanto tempo o estudo durou?</dt>
+    </dl>
+
+    <p class="old">RD: Dividimos o trabalho em duas partes. A primeira é da IA conseguir simular um modelo que só ela já
+      viu, o que teve uma duração de seis meses a um ano, entre
+      aprender as ferramentas, propor o algoritmo, preparar os dados, treinar e analisar os resultados. Mas treinando
+      mesmo, durou apenas algumas horas.
+      Já a segunda parte, que envolve a IA aprender com várias simulações e representar um sistema que ela nunca tinha
+      visto antes, levou cerca de seis meses.</p><br>
+
+    <dl>
+      <dt><img src="Imagens/backup.png" alt="" width="2%"> Tilt: E quem participou dessa pesquisa complexa?</dt>
+    </dl>
+
+    <p class="old">RD: O trabalho foi feito por mim, pelo meu orientador Rodrigo Nemmen [astrofísico e professor da USP]
+      e por um colaborador da Nvidia [empresa de computação gráfica],
+      João Paulo Navarro.</p><br>
+
+    <dl>
+      <dt><img src="Imagens/backup.png" alt="" width="2%"> Tilt: E como a "mágica" acontece na prática?</dt>
+    </dl>
+
+    <p class="old">RD: Nós alimentamos um bloco de frames [quadro de vídeo] para a IA já treinada e ele retorna com os
+      próximos estados que aquele disco de acreção terá.
+      É como dar um quadro de um vídeo de uma bola caindo, e a IA conseguir antecipar a trajetória da bola nos próximos
+      quadros. Ela sempre prevê como vai ser o estado
+      futuro, após o frame que demos a ela.</p>
+
+    <dl>
+      <dt><img src="Imagens/backup.png" alt="" width="2%"> Tilt: Quais foram os recursos tecnológicos que você usou?
+      </dt>
+    </dl>
+
+    <p class="old">RD: Usamos duas GPUs [processador gráfico de computador, responsável por renderizar imagens] que
+      foram contribuições da Nvidia para a realização desse projeto.</p>
+  </div>
+
+  <!--paginação-->
+
+  <nav aria-label="Page navigation example" style="margin-top: 6%;">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="IndexPerseverence.html">Anterior</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="IndexSophia.html">1</a></li>
+      <li class="page-item"><a class="page-link" href="Temperatura.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="IndexPerseverence.html">3</a></li>
+      <li class="page-item active"><a class="page-link" href="BuracoNegro.html">4</a></li>
+      <li class="page-item"><a class="page-link" href="IndexIndustria.html">5</a></li>
+      <li class="page-item">
+        <a class="page-link" href="IndexIndustria.html">Próxima</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--footer-->
+
+  <div class="container1">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-0">
+      <p class="col-md-4 mb-0 text-muted">&copy; 2021 Blue | Cloud, Inc</p>
+      <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" href="Index.html">
+        <img src="Imagens/Logo.png">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap" />
+        </svg>
+      </a>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

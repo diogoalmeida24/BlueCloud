@@ -1,0 +1,102 @@
+body{
+    background-image: url(Imagens/FundoLogin.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+div.container-fluid{
+    font-size: 20px;
+    border-bottom: 4px solid #46b5d0;
+}
+
+li.nav-item1{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+div.login{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+a.login{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div.container1{
+    margin-top: 3%;
+    background-color:transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-color: black;
+}
+
+div.form-group{
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 50px;
+    color: white;
+}
+
+button.btt-primary{
+    border: 2px solid #0d6efd;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 17px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+button.btt-secondary{
+    margin-left: 18px;
+    border: 2px solid #0d6efd;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 17px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+div.estilo{
+    margin-top: 40px;
+}
+
+h2{
+    color: white;
+    margin-top: 8px;
+}
+
+p.introducao{
+    color: white;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-top: 25px;
+    font-family: 'Segoe UI';
+    margin-bottom: 25px;
+}
+
+h3.titulo{
+    color: white;
+}
+
+img.style{
+    image-rendering: auto;
+    width: 40%;
+    height: 60%;
+    align-items: center;
+    border-bottom: 10px;
+}

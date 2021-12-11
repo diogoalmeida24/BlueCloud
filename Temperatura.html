@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Cloud</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Temperatura.css"> <!--Folha de estilo (CSS)-->
+  <link rel="icon" href="Imagens/icone.ico">
+  <script language="Javascript"> //Funções JavaScript//
+    function alerta(){  //Instruções donwload quiz//
+      alert("Olá usuário!\n\nLogo após ser feito o download do arquivo (PC_Quiz.zip), descompacte e execute o arquivo 'Quiz_BlueCloud'.\n\nSe divirta!")
+    }
+  </script>
+</head>
+<body>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">
+          <img src="Imagens/Logo.png" alt="" width="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item1">
+              <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Conteúdo
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="IndexSophia.html">Sophia</a></li>
+                <li><a class="dropdown-item" href="IndexPerseverence.html"> Perseverance</a></li>
+                <li><a class="dropdown-item" href="BuracoNegro.html">Buraco Negro</a></li>
+                <li><a class="dropdown-item" href="IndexIndustria.html">Indústria pelo mundo </a></li>
+              </ul>
+            </li>
+            <li class="nav-item1">
+              <a class="nav-link active" aria-current="page" href="Pc_Quiz.zip" onclick="alerta()"> Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Imagens/bd.png" style="width: 200px;">Banco de Dados</a>
+            </li>
+          </ul>
+          <div class="login"><a class="login" href="LoginCadastro.html"><img src="Imagens/teste5.png" alt="" width="38" height="32"></img> Login / Cadastro</a></div> <!-- Cadastro/Login Cliente-->
+        </div>
+      </div>
+    </nav>
+      
+        <!--Noticia-->
+        ​<img src="Imagens/temperatura.png" class="img-fluid" alt="temperatura">
+
+      <div class="container-fluid1">
+        <p class="noticia">
+          &nbsp;Tentar "simular a vida" usando uma técnica de inteligência artificial conhecida como machine learning para prever o impacto do aumento da temperatura na superfície do oceano Austral em microrganismos que o habitam.
+           Esse foi o objetivo do trabalho realizado por uma equipe multidisciplinar que inclui o oceanógrafo Marcos Tonelli e a bióloga Amanda Gonçalves Bendia, pós-doutorandos e professores colaboradores do Instituto Oceanográfico da Universidade de São Paulo (IO-USP), além de outros cinco cientistas da instituição: Juliana Neiva, Bruno Ferrero, Ilana Wainer, Camila Signori e Vivian Pellizari.<br>
+          <br>&nbsp; No estudo, os pesquisadores consideraram quatro cenários de emissões para avaliar a sensibilidade da superfície do oceano Antártico ao aquecimento global. Trabalhando com microrganismos que compõem a base da cadeia alimentar, descobriram uma tendência de diminuição de alguns seres envolvidos em processos biogeoquímicos cruciais, produtores de nutrientes necessários a eles e a muitas outras formas de vida. 
+          Além disso, também detectaram um aumento de alguns grupos que dependem do consumo desses nutrientes, pois não produzem seu próprio alimento (heterotróficos). Foram usadas no estudo duas formas de predição. Na primeira, intitulada índice de diversidade, os cientistas tiveram como foco as diferenças na redução da diversidade de organismos conforme os cenários.
+          <br><br><br>
+          
+          &nbsp;Foram usadas no estudo duas formas de predição:<br>
+          &nbsp;<b>Na primeira</b> intitulada índice de diversidade, os cientistas tiveram como foco as diferenças na redução da diversidade de organismos conforme os cenários.</p>
+      
+        <p class="cit">
+          <i><b>"Num cenário de maior emissão, teremos perda significativa de diversidade"</i>, adianta Tonelli, primeiro autor do artigo, publicado recentemente na revista Frontiers in Marine Science.</b>
+          <br><br>
+        </p>
+
+          <p class="noticia">
+            &nbsp;<b>A segunda</b> foi a predição relativa a grupos taxonômicos específicos (no nível de ordem), na qual a equipe percebeu que grupos muito importantes para o ambiente, e não só da Antártica, apresentaram diminuição na abundância. O trabalho tem apoio da FAPESP por meio de dois projetos (12/23241-0 e 18/14789-9)
+          </p>
+      </div>
+
+      <!--Carousel centro. Contém 3 imagens e o tempo está alterado com "data-bs-interval='3000'"-->
+      <center>
+        <div style="margin-top: 5%;">
+        <div id="carouselExample" class="carousel slide carousel-inner" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="Imagens/aumento temp.webp" width="50%" height="100%" class="d-block w-13" alt="Imagem barco">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="Imagens/aqueci.jpg" width="50%" class="d-block w-13" alt="imagem Mapa">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="Imagens/fundooce.jpg" width="50%" class="d-block w-13" alt="...">
+            </div>
+          </div>
+        </div>
+        </div>
+      </center>
+
+      <center>
+        <p class="fw-lighter">
+          Cientistas usam inteligência artificial para simular efeito do aumento da temperatura no oceano Antártico
+        </p>
+      </center>
+
+    <div class="container-fluid1">
+      <h2 style="margin-left: 5%; margin-bottom: 2%;   font-family:sans-serif;text-decoration: underline;"><b>Metodologia inovadora</b></h2>
+      <p class="noticia">
+        &nbsp;Os quatro cenários socioeconômicos considerados pelos cientistas foram estabelecidos no âmbito do Programa Mundial de Pesquisa do Clima (WCRP, na sigla em inglês), que coordena o desenvolvimento de modelos do clima e do sistema terrestre pelos principais centros de modelagem do mundo, no âmbito de um projeto denominado Coupled Model Intercomparison Project, agora em sua sexta fase (CMIP6)
+        <br><br>
+        &nbsp;Os modelos do CMIP6 simulam o clima em diferentes cenários de atividade humana sobre o ambiente no futuro, denominados SSP (caminhos socioeconômicos compartilhados, na sigla em inglês)
+      <br><br>
+      &nbsp;Para esse estudo, foram considerados quatro cenários SSP que ilustram os possíveis drivers antropogênicos do aquecimento global: SSP1-2.6 (o caminho da sustentabilidade, com baixo desafio para mitigação e adaptação); SSP2-4.5 (o meio-termo, com desafios médios para mitigação e adaptação); SSP3-7.0 (cenário de rivalidade regional, com grandes desafios para mitigação e adaptação); e SSP5-8.5 (cenário de desenvolvimento movido a combustível fóssil, com grandes desafios para a mitigação e baixos desafios para a adaptação)<br><br>
+      <i>&nbsp;"Os cenários de altas emissões projetaram um surgimento muito mais precoce da mudança de temperatura induzida pelo homem em todo o oceano Austral"</i>, adianta Tonelli
+      <br><br>
+      </p>
+
+      <h3 style="margin-left: 5%; margin-bottom: 2%;   font-family:sans-serif;text-decoration: underline;"><b>Resultados</b></h3>
+       
+      <p class="noticia">
+        &nbsp; As simulações indicam uma diminuição na riqueza e na diversidade das comunidades microbianas em todas as projeções climáticas, sendo que as emissões mais altas causariam uma diminuição mais significativa, especialmente no cenário mais crítico (SSP5-8.5)
+
+        Enquanto o cenário de baixa emissão (SSP1-2.5) projetou pequenas mudanças na abundância relativa de microrganismos, os três cenários com o maior aumento na temperatura, incluindo o cenário do "meio-termo", mostram mudanças na estrutura das comunidades microbianas que incluem a perda de diversidade e a diminuição na taxa de microrganismos importantes para os processos biogeoquímicos e o funcionamento do ecossistema no noroeste da Península Antártica e a noroeste do mar de Weddel
+        <br><br>
+        &nbsp;Bendia destaca uma arqueia da ordem Nitrosopumilales que oxida a amônia. Ela explica que toda a vida na Terra está dividida em três grandes domínios (Bacteria, Archaea e Eukarya), e o domínio das arqueias ainda é pouco estudado
+        <br><br>
+        <i>&nbsp;&nbsp;"Esse grupo de arqueia da ordem Nitrosopumilales faz a oxidação de amônia e fixa dióxido de carbono [CO2], sendo relativamente conhecido pela ciência. É bem abundante na Antártica, pois gosta de águas geladas
+        <br><br>
+        E nele notamos uma redução drástica após a predição. Essa arqueia faz um processo de remineralização da matéria orgânica, faz a ciclagem de nutrientes do ambiente para que outros microrganismos usem. Se houver interrupção nesse processo, os outros microrganismos não vão ter nutrientes
+        <br><br>
+        Há outro grupo, esse de bactérias, que faz oxidação de compostos de enxofre, que também diminuiu. Certos compostos de enxofre na forma reduzida podem ser tóxicos para alguns organismos do ambiente, então elas fazem a oxidação desses compostos."</i>
+        <br><br>
+        &nbsp;Segundo ela, também houve redução em grupos pouco conhecidos, como uma arqueia planctônica chamada Marine Group II. Em contrapartida, o modelo projetou maior abundância relativa para a ordem dos Flavobacteriales, que compreende várias famílias de bactérias heterotróficas.
+        <br><br>
+        &nbsp;&nbsp;<i>"Esperávamos uma alteração na predição feita com base nos vários cenários e modelos de machine learning, mas não imaginávamos que elas fossem acontecer nesses grupos-chave de microrganismos, muito importantes para o ecossistema e os ciclos biogeoquímicos"</i>, afirma Bendia.
+        <br><br>
+        &nbsp;Reiterando que tais ordens são compostas por várias espécies com papéis importantes no funcionamento dos ecossistemas oceânicos, incluindo os ciclos de enxofre, nitrogênio e carbono - e são atualmente consideradas abundantes na superfície oceânica.
+         "Estamos falando da parte mais baixa da cadeia trófica, dos produtores primários; dali parte toda a cadeia alimentar que chega até os grandes mamíferos.
+         Se os consumidores estão aumentando e os produtores não, como é que isso vai repercutir nos níveis lá de cima?
+         <br><br>
+         &nbsp;Ainda não sabemos e precisamos de um bom time de especialistas para entender isso. Mas acredito que alguns grupos serão privilegiados e outros sofrerão com as mudanças", resume Tonelli.
+         As implicações de uma diminuição na oxidação da amônia nos ecossistemas estudados ainda não estão claras, mas alguns estudos de modelagem indicaram que ela pode afetar os nutrientes, a desnitrificação (transformação do nitrato em outras formas de nitrogênio que podem retornar à atmosfera), a produtividade marinha e o sequestro biológico de carbono pelos oceanos.
+      </p>
+    </div>
+
+    <!--Paginação-->
+
+    <nav aria-label="Page navigation example" style="margin-top: 6%;">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="IndexSophia.html">Anterior</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="IndexSophia.html">1</a></li>
+        <li class="page-item active"><a class="page-link" href="Temperatura.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="IndexPerseverence.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="BuracoNegro.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="IndexIndustria.html">5</a></li>
+        <li class="page-item">
+          <a class="page-link" href="IndexPerseverence.html">Próxima</a>
+        </li>
+      </ul>
+    </nav>
+
+      <!--Footer-->
+
+      <div class="container1">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-0">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2021 Blue | Cloud, Inc</p>
+          <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" href="Index.html">
+            <img src="Imagens/Logo.png">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+</html>
